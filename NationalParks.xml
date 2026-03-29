@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NationalParks>
+<NationalParks xmlns="http://venus.sod.asu.edu/WSRepository/xml"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml NationalParks.xsd">
+
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
     <Phone>928-638-7496</Phone>
@@ -26,7 +29,7 @@
     </Address>
   </NationalPark>
 
-  <NationalPark Rating="4.8">
+  <NationalPark>
     <Name>Yellowstone</Name>
     <Phone>307-344-7381</Phone>
     <Address NearestAirport="Bozeman Yellowstone">
@@ -62,7 +65,7 @@
     </Address>
   </NationalPark>
 
-  <NationalPark Rating="4.7">
+  <NationalPark>
     <Name>Acadia</Name>
     <Phone>207-288-3338</Phone>
     <Address NearestAirport="Hancock County-Bar Harbor">
@@ -110,7 +113,7 @@
     </Address>
   </NationalPark>
 
-  <NationalPark Rating="4.6">
+  <NationalPark>
     <Name>Joshua Tree</Name>
     <Phone>760-367-5500</Phone>
     <Address NearestAirport="Palm Springs International">
@@ -133,4 +136,5 @@
       <Zip>93271</Zip>
     </Address>
   </NationalPark>
+
 </NationalParks>
